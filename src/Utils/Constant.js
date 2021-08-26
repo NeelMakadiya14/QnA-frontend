@@ -1,0 +1,40 @@
+export const tags = [
+  "Maths",
+  "React",
+  "Tech",
+  "Web",
+  "Apptitude",
+  "Java",
+  "Python",
+  "Cpp",
+  "C",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "SQL",
+  "Computer Science",
+  "Algorithm",
+  "Data Structure",
+  "Machine Learning",
+  "Artificial Intelligence",
+  "Operating System",
+  "Database",
+  "Cloud Computing",
+  "Andriod",
+];
+
+export const tags_home = [
+  "Web",
+  "Python",
+  "C",
+  "SQL",
+  "Computer Science",
+  "Algorithm",
+  "Data Structure",
+  "Machine Learning",
+  "Artificial Intelligence",
+  "Operating System",
+  "Cloud Computing",
+];
+
+export const drawerWidth = 240;
