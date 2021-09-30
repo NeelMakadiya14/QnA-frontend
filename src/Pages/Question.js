@@ -107,7 +107,11 @@ export default function Question(props) {
                 </Grid>
                 <Grid item xs={12}>
                   {question.Answers.map((answer, i) => (
-                    <Answer key={i} Answer={answer} />
+                    <Answer
+                      key={i}
+                      Answer={answer}
+                      Author={question.Author.email}
+                    />
                   ))}
                 </Grid>
                 {userCookie && userCookie.complateProfile ? (
